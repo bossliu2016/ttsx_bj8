@@ -1,0 +1,228 @@
+*** Starting uWSGI 2.0.14 (64bit) on [Wed Aug  9 15:25:06 2017] ***
+compiled with version: 5.4.0 20160609 on 21 March 2017 10:49:30
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/pytest/ttsx_bj8/ttsx
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/py_django/bin/uwsgi
+chdir() to /home/python/Desktop/pytest/ttsx_bj8/ttsx/
+your processes number limit is 31713
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:35930 (port auto-assigned) fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0xc3fa70
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xc3fa70 pid: 35095 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 35095)
+spawned uWSGI worker 1 (pid: 35098, cores: 2)
+spawned uWSGI worker 2 (pid: 35099, cores: 2)
+spawned uWSGI worker 3 (pid: 35100, cores: 2)
+spawned uWSGI worker 4 (pid: 35101, cores: 2)
+spawned uWSGI http 1 (pid: 35103)
+[pid: 35100|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 756 bytes} [Wed Aug  9 15:28:36 2017] GET / => generated 15861 bytes in 599 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+[pid: 35100|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 743 bytes} [Wed Aug  9 15:28:36 2017] GET /static/css/reset.css => generated 159 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35100|app: 0|req: 3/3] 127.0.0.1 () {38 vars in 741 bytes} [Wed Aug  9 15:28:36 2017] GET /static/js/jquery-ui.min.js => generated 159 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35100|app: 0|req: 4/4] 127.0.0.1 () {38 vars in 725 bytes} [Wed Aug  9 15:28:36 2017] GET /static/js/slide.js => generated 159 bytes in 40 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35099|app: 0|req: 1/5] 127.0.0.1 () {38 vars in 741 bytes} [Wed Aug  9 15:28:36 2017] GET /static/css/main.css => generated 159 bytes in 724 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35101|app: 0|req: 1/6] 127.0.0.1 () {38 vars in 748 bytes} [Wed Aug  9 15:28:36 2017] GET /static/js/jquery-1.12.4.min.js => generated 159 bytes in 744 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35100|app: 0|req: 5/7] 127.0.0.1 () {38 vars in 733 bytes} [Wed Aug  9 15:28:37 2017] GET /static/js/slideshow.js => generated 159 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35100|app: 0|req: 6/8] 127.0.0.1 () {38 vars in 764 bytes} [Wed Aug  9 15:28:37 2017] GET /static/images/slide03.jpg => generated 159 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35099|app: 0|req: 3/9] 127.0.0.1 () {38 vars in 764 bytes} [Wed Aug  9 15:28:37 2017] GET /static/images/slide02.jpg => generated 159 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35099|app: 0|req: 3/10] 127.0.0.1 () {38 vars in 760 bytes} [Wed Aug  9 15:28:37 2017] GET /static/images/slide.jpg => generated 159 bytes in 25 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35100|app: 0|req: 7/11] 127.0.0.1 () {38 vars in 764 bytes} [Wed Aug  9 15:28:37 2017] GET /static/images/slide04.jpg => generated 159 bytes in 21 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35100|app: 0|req: 8/12] 127.0.0.1 () {38 vars in 760 bytes} [Wed Aug  9 15:28:37 2017] GET /static/images/adv01.jpg => generated 159 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35100|app: 0|req: 10/14] 127.0.0.1 () {38 vars in 760 bytes} [Wed Aug  9 15:28:37 2017] GET /static/images/adv02.jpg => generated 159 bytes in 19 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35099|app: 0|req: 4/14] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:37 2017] GET /static/goods/58e62d46Ndcc0a865.jpg => generated 159 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35100|app: 0|req: 10/15] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:37 2017] GET /static/goods/59251bebNea0fc46f.jpg => generated 159 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35101|app: 0|req: 2/16] 127.0.0.1 () {38 vars in 766 bytes} [Wed Aug  9 15:28:37 2017] GET /static/images/banner01.jpg => generated 159 bytes in 14 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35100|app: 0|req: 11/17] 127.0.0.1 () {38 vars in 766 bytes} [Wed Aug  9 15:28:37 2017] GET /static/images/banner02.jpg => generated 159 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35101|app: 0|req: 3/18] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:37 2017] GET /static/goods/577f85a7N39f40c35.jpg => generated 159 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35099|app: 0|req: 5/19] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:37 2017] GET /static/goods/57c4e212N9e09772f.jpg => generated 159 bytes in 19 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35100|app: 0|req: 12/20] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:37 2017] GET /static/goods/580df2b5Ncb04c5ac.jpg => generated 159 bytes in 28 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35100|app: 0|req: 13/21] 127.0.0.1 () {38 vars in 766 bytes} [Wed Aug  9 15:28:37 2017] GET /static/images/banner03.jpg => generated 159 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35100|app: 0|req: 15/22] 127.0.0.1 () {38 vars in 766 bytes} [Wed Aug  9 15:28:37 2017] GET /static/images/banner04.jpg => generated 159 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35101|app: 0|req: 4/23] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:37 2017] GET /static/goods/57cd6554N11b56a5e.jpg => generated 159 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35100|app: 0|req: 15/25] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:37 2017] GET /static/goods/58195ebcNe10944bc.jpg => generated 159 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35099|app: 0|req: 6/25] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:37 2017] GET /static/goods/57e3aea6N5d8f4459.jpg => generated 159 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35099|app: 0|req: 7/26] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:37 2017] GET /static/goods/57b5151aN00a63bf1.jpg => generated 159 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35100|app: 0|req: 16/27] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:37 2017] GET /static/goods/59140f47Nff0b96d9.jpg => generated 159 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35101|app: 0|req: 5/28] 127.0.0.1 () {38 vars in 766 bytes} [Wed Aug  9 15:28:37 2017] GET /static/images/banner05.jpg => generated 159 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35099|app: 0|req: 8/29] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:37 2017] GET /static/goods/57481b77Nbed0cff5.jpg => generated 159 bytes in 16 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35098|app: 0|req: 2/30] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:37 2017] GET /static/goods/58ec98efN3db99134.jpg => generated 159 bytes in 342 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35098|app: 0|req: 2/31] 127.0.0.1 () {38 vars in 758 bytes} [Wed Aug  9 15:28:37 2017] GET /static/images/logo.png => generated 159 bytes in 465 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35100|app: 0|req: 17/32] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:38 2017] GET /static/goods/58ff1030Nda28ac8d.jpg => generated 159 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35099|app: 0|req: 9/33] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:38 2017] GET /static/goods/57fee44fN7427cd09.jpg => generated 159 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35101|app: 0|req: 6/34] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:38 2017] GET /static/goods/57a9a823N2c38934e.jpg => generated 159 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35101|app: 0|req: 7/35] 127.0.0.1 () {38 vars in 766 bytes} [Wed Aug  9 15:28:38 2017] GET /static/images/banner06.jpg => generated 159 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35098|app: 0|req: 3/36] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:38 2017] GET /static/goods/58a41cbbN15b88742.jpg => generated 159 bytes in 7 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35100|app: 0|req: 18/37] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:38 2017] GET /static/goods/57c95498Nfd37b218.jpg => generated 159 bytes in 16 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35100|app: 0|req: 19/38] 127.0.0.1 () {38 vars in 782 bytes} [Wed Aug  9 15:28:38 2017] GET /static/goods/5523aa83N67e99470.jpg => generated 159 bytes in 8 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35101|app: 0|req: 8/39] 127.0.0.1 () {38 vars in 711 bytes} [Wed Aug  9 15:28:38 2017] GET /favicon.ico => generated 159 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 35103)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.14 (64bit) on [Wed Aug  9 15:32:03 2017] ***
+compiled with version: 5.4.0 20160609 on 21 March 2017 10:49:30
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/pytest/ttsx_bj8/ttsx
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/py_django/bin/uwsgi
+chdir() to /home/python/Desktop/pytest/ttsx_bj8/ttsx/
+your processes number limit is 31713
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x228ddd0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x228ddd0 pid: 35207 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 35207)
+spawned uWSGI worker 1 (pid: 35210, cores: 2)
+spawned uWSGI worker 2 (pid: 35211, cores: 2)
+spawned uWSGI worker 3 (pid: 35212, cores: 2)
+spawned uWSGI worker 4 (pid: 35213, cores: 2)
+[pid: 35213|app: 0|req: 1/1] 127.0.0.1 () {46 vars in 916 bytes} [Wed Aug  9 16:16:58 2017] GET / => generated 15861 bytes in 564 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+[pid: 35213|app: 0|req: 2/2] 127.0.0.1 () {40 vars in 776 bytes} [Wed Aug  9 16:16:58 2017] GET /static/css/reset.css => generated 159 bytes in 76 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35212|app: 0|req: 2/3] 127.0.0.1 () {40 vars in 781 bytes} [Wed Aug  9 16:16:58 2017] GET /static/js/jquery-1.12.4.min.js => generated 159 bytes in 647 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35212|app: 0|req: 2/4] 127.0.0.1 () {40 vars in 774 bytes} [Wed Aug  9 16:16:58 2017] GET /static/css/main.css => generated 159 bytes in 655 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35211|app: 0|req: 2/5] 127.0.0.1 () {40 vars in 757 bytes} [Wed Aug  9 16:16:58 2017] GET /static/js/slide.js => generated 159 bytes in 672 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35211|app: 0|req: 2/6] 127.0.0.1 () {40 vars in 773 bytes} [Wed Aug  9 16:16:58 2017] GET /static/js/jquery-ui.min.js => generated 159 bytes in 687 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35211|app: 0|req: 3/8] 127.0.0.1 () {40 vars in 796 bytes} [Wed Aug  9 16:16:59 2017] GET /static/images/slide03.jpg => generated 159 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35212|app: 0|req: 3/9] 127.0.0.1 () {40 vars in 796 bytes} [Wed Aug  9 16:16:59 2017] GET /static/images/slide02.jpg => generated 159 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35213|app: 0|req: 3/9] 127.0.0.1 () {40 vars in 790 bytes} [Wed Aug  9 16:16:59 2017] GET /static/images/logo.png => generated 159 bytes in 16 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35213|app: 0|req: 4/10] 127.0.0.1 () {40 vars in 796 bytes} [Wed Aug  9 16:16:59 2017] GET /static/images/slide04.jpg => generated 159 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35213|app: 0|req: 6/12] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:16:59 2017] GET /static/goods/58e62d46Ndcc0a865.jpg => generated 159 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35212|app: 0|req: 4/13] 127.0.0.1 () {40 vars in 792 bytes} [Wed Aug  9 16:16:59 2017] GET /static/images/adv02.jpg => generated 159 bytes in 9 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35213|app: 0|req: 6/13] 127.0.0.1 () {40 vars in 792 bytes} [Wed Aug  9 16:16:59 2017] GET /static/images/adv01.jpg => generated 159 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35211|app: 0|req: 4/14] 127.0.0.1 () {40 vars in 798 bytes} [Wed Aug  9 16:16:59 2017] GET /static/images/banner01.jpg => generated 159 bytes in 11 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35211|app: 0|req: 5/15] 127.0.0.1 () {40 vars in 798 bytes} [Wed Aug  9 16:16:59 2017] GET /static/images/banner02.jpg => generated 159 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35212|app: 0|req: 5/16] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:16:59 2017] GET /static/goods/59251bebNea0fc46f.jpg => generated 159 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35213|app: 0|req: 8/17] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:16:59 2017] GET /static/goods/58ec98efN3db99134.jpg => generated 159 bytes in 28 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35213|app: 0|req: 8/18] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:16:59 2017] GET /static/goods/580df2b5Ncb04c5ac.jpg => generated 159 bytes in 19 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35213|app: 0|req: 10/20] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:16:59 2017] GET /static/goods/58195ebcNe10944bc.jpg => generated 159 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35211|app: 0|req: 6/20] 127.0.0.1 () {40 vars in 798 bytes} [Wed Aug  9 16:16:59 2017] GET /static/images/banner03.jpg => generated 159 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35213|app: 0|req: 10/21] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:16:59 2017] GET /static/goods/57c4e212N9e09772f.jpg => generated 159 bytes in 12 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35212|app: 0|req: 6/22] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:16:59 2017] GET /static/goods/577f85a7N39f40c35.jpg => generated 159 bytes in 10 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35210|app: 0|req: 2/23] 127.0.0.1 () {40 vars in 792 bytes} [Wed Aug  9 16:16:59 2017] GET /static/images/slide.jpg => generated 159 bytes in 617 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35210|app: 0|req: 2/24] 127.0.0.1 () {40 vars in 765 bytes} [Wed Aug  9 16:16:59 2017] GET /static/js/slideshow.js => generated 159 bytes in 635 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35213|app: 0|req: 11/25] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:17:00 2017] GET /static/goods/57cd6554N11b56a5e.jpg => generated 159 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35211|app: 0|req: 7/26] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:17:00 2017] GET /static/goods/57e3aea6N5d8f4459.jpg => generated 159 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35212|app: 0|req: 7/27] 127.0.0.1 () {40 vars in 798 bytes} [Wed Aug  9 16:17:00 2017] GET /static/images/banner04.jpg => generated 159 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35213|app: 0|req: 12/28] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:17:00 2017] GET /static/goods/59140f47Nff0b96d9.jpg => generated 159 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35211|app: 0|req: 8/29] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:17:00 2017] GET /static/goods/57b5151aN00a63bf1.jpg => generated 159 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35212|app: 0|req: 8/30] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:17:00 2017] GET /static/goods/57481b77Nbed0cff5.jpg => generated 159 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35213|app: 0|req: 13/31] 127.0.0.1 () {40 vars in 798 bytes} [Wed Aug  9 16:17:00 2017] GET /static/images/banner05.jpg => generated 159 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35211|app: 0|req: 9/32] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:17:00 2017] GET /static/goods/58ff1030Nda28ac8d.jpg => generated 159 bytes in 18 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35213|app: 0|req: 14/33] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:17:00 2017] GET /static/goods/57fee44fN7427cd09.jpg => generated 159 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35210|app: 0|req: 4/35] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:17:01 2017] GET /static/goods/57c95498Nfd37b218.jpg => generated 159 bytes in 23 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 1)
+[pid: 35210|app: 0|req: 4/35] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:17:01 2017] GET /static/goods/58a41cbbN15b88742.jpg => generated 159 bytes in 20 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35212|app: 0|req: 9/36] 127.0.0.1 () {40 vars in 798 bytes} [Wed Aug  9 16:17:01 2017] GET /static/images/banner06.jpg => generated 159 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35213|app: 0|req: 15/37] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:17:01 2017] GET /static/goods/5523aa83N67e99470.jpg => generated 159 bytes in 20 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35211|app: 0|req: 10/38] 127.0.0.1 () {40 vars in 814 bytes} [Wed Aug  9 16:17:01 2017] GET /static/goods/57a9a823N2c38934e.jpg => generated 159 bytes in 39 msecs (HTTP/1.1 404) 2 headers in 95 bytes (1 switches on core 0)
+[pid: 35213|app: 0|req: 16/39] 127.0.0.1 () {42 vars in 825 bytes} [Wed Aug  9 16:47:51 2017] GET / => generated 15861 bytes in 222 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+{'count__sum': None}
+[pid: 35213|app: 0|req: 17/40] 127.0.0.1 () {44 vars in 813 bytes} [Wed Aug  9 16:47:52 2017] GET /cart/count/ => generated 15 bytes in 55 msecs (HTTP/1.1 200) 4 headers in 225 bytes (1 switches on core 0)
+[pid: 35213|app: 0|req: 18/41] 127.0.0.1 () {42 vars in 837 bytes} [Wed Aug  9 16:48:12 2017] GET /cart/ => generated 5366 bytes in 46 msecs (HTTP/1.1 200) 5 headers in 355 bytes (1 switches on core 1)
+[pid: 35213|app: 0|req: 19/42] 127.0.0.1 () {42 vars in 832 bytes} [Wed Aug  9 16:48:16 2017] GET / => generated 15861 bytes in 255 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+{'count__sum': None}
+[pid: 35213|app: 0|req: 20/43] 127.0.0.1 () {42 vars in 782 bytes} [Wed Aug  9 16:48:18 2017] GET /cart/count/ => generated 15 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 225 bytes (1 switches on core 1)
+[pid: 35213|app: 0|req: 21/44] 127.0.0.1 () {44 vars in 863 bytes} [Wed Aug  9 16:49:45 2017] GET / => generated 15861 bytes in 181 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+{'count__sum': None}
+[pid: 35213|app: 0|req: 22/45] 127.0.0.1 () {44 vars in 813 bytes} [Wed Aug  9 16:49:46 2017] GET /cart/count/ => generated 15 bytes in 37 msecs (HTTP/1.1 200) 4 headers in 225 bytes (1 switches on core 1)
+[pid: 35213|app: 0|req: 23/46] 127.0.0.1 () {44 vars in 863 bytes} [Wed Aug  9 16:49:50 2017] GET / => generated 15861 bytes in 187 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+{'count__sum': None}
+[pid: 35213|app: 0|req: 24/47] 127.0.0.1 () {44 vars in 813 bytes} [Wed Aug  9 16:49:52 2017] GET /cart/count/ => generated 15 bytes in 32 msecs (HTTP/1.1 200) 4 headers in 225 bytes (1 switches on core 1)
+[pid: 35213|app: 0|req: 25/48] 127.0.0.1 () {44 vars in 863 bytes} [Wed Aug  9 16:51:27 2017] GET / => generated 15861 bytes in 187 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+{'count__sum': None}
+[pid: 35213|app: 0|req: 26/49] 127.0.0.1 () {44 vars in 813 bytes} [Wed Aug  9 16:51:29 2017] GET /cart/count/ => generated 15 bytes in 34 msecs (HTTP/1.1 200) 4 headers in 225 bytes (1 switches on core 1)
+[pid: 35213|app: 0|req: 27/50] 127.0.0.1 () {44 vars in 863 bytes} [Wed Aug  9 16:51:35 2017] GET / => generated 15861 bytes in 291 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+{'count__sum': None}
+[pid: 35213|app: 0|req: 28/51] 127.0.0.1 () {44 vars in 813 bytes} [Wed Aug  9 16:51:37 2017] GET /cart/count/ => generated 15 bytes in 38 msecs (HTTP/1.1 200) 4 headers in 225 bytes (1 switches on core 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+[pid: 35213|app: 0|req: 29/52] 127.0.0.1 () {44 vars in 863 bytes} [Wed Aug  9 16:52:10 2017] GET / => generated 15861 bytes in 235 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+{'count__sum': None}
+[pid: 35213|app: 0|req: 30/53] 127.0.0.1 () {44 vars in 813 bytes} [Wed Aug  9 16:52:11 2017] GET /cart/count/ => generated 15 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 225 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.14 (64bit) on [Wed Aug  9 16:52:59 2017] ***
+compiled with version: 5.4.0 20160609 on 21 March 2017 10:49:30
+os: Linux-4.4.0-83-generic #106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/python/Desktop/pytest/ttsx_bj8/ttsx
+writing pidfile to uwsgi.pid
+detected binary path: /home/python/.virtualenvs/py_django/bin/uwsgi
+chdir() to /home/python/Desktop/pytest/ttsx_bj8/ttsx/
+your processes number limit is 31713
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+Python main interpreter initialized at 0x9a8dd0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x9a8dd0 pid: 36469 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 36469)
+spawned uWSGI worker 1 (pid: 36472, cores: 2)
+spawned uWSGI worker 2 (pid: 36473, cores: 2)
+spawned uWSGI worker 3 (pid: 36475, cores: 2)
+spawned uWSGI worker 4 (pid: 36476, cores: 2)
+[pid: 36472|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 863 bytes} [Wed Aug  9 16:53:02 2017] GET / => generated 15861 bytes in 732 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+{'count__sum': None}
+[pid: 36476|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 813 bytes} [Wed Aug  9 16:53:04 2017] GET /cart/count/ => generated 12 bytes in 487 msecs (HTTP/1.1 200) 4 headers in 225 bytes (1 switches on core 0)
